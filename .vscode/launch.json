@@ -5,7 +5,7 @@
             "name": "(OSX) Launch",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceRoot}/001.HelloWorld/hello",
+            "program": "${workspaceRoot}/guessing_game/target/debug/guessing_game",
             "args": [],
             "cwd": "${workspaceRoot}",
         }
