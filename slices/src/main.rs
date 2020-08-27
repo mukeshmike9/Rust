@@ -54,6 +54,9 @@ fn first_word_as_slice(s: &String) -> &str {
     &s[..]
 }
 
+/**
+ * Pass array as slice
+ */
 fn array_slice() {
     let a = [1, 2, 3, 4, 5];
 
