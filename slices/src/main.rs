@@ -42,6 +42,9 @@ fn string_slices() {
     println!("1st slice: {}, 2nd slice: {}", hello, world);
 }
 
+/**
+ * Pass STring as slice
+ */
 fn first_word_as_slice(s: &String) -> &str {
     let bytes = s.as_bytes();
 
