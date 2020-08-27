@@ -19,6 +19,9 @@ fn first_word(s: &String) -> usize {
     s.len()
 }
 
+/**
+ * Error Case
+ */
 fn return_out_of_sync() {
     let mut s = String::from("hello world");
 
